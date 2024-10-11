@@ -1,6 +1,6 @@
 function Skill(props) {
   return (
-    <span className="bg-white border-solid rounded-xl px-2 mx-1">
+    <span className="bg-white border-solid rounded-xl px-2 mr-1">
       {props.skill}
     </span>
   );

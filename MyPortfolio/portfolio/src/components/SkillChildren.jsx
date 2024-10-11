@@ -18,7 +18,7 @@ function SkillChildren() {
     "Heroku",
   ];
   return (
-    <div className="flex flex-wrap gap-y-1 mt-2 px-2">
+    <div className="flex flex-wrap gap-y-1 mt-2 px-1">
       {skills.map((item) => {
         return <Skill skill={item}></Skill>;
       })}

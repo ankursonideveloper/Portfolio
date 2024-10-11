@@ -2,8 +2,9 @@ import "./index.css";
 import ProfilePhoto from "./assets/ProfilePhoto.jpg";
 import Header from "./components/Header";
 import Section from "./components/Section";
-import Skill from "./components/Skill";
 import SkillChildren from "./components/SkillChildren";
+import Project from "./components/Project";
+
 import {
   UserRound,
   FlaskConical,
@@ -39,7 +40,22 @@ function App() {
           {aboutmeChild}
         </Section>
         <Section Icon={BriefcaseBusiness} sectionName="Projects">
-          {aboutmeChild}
+          <Project
+            projectTitle="E Commerce App"
+            projectDescription="hgfhgdf fdhjs fghgdf fgkdsgfk fhdsfh fkjdsf "
+            projectSkills={["Java", "JavaScript", "Python", "NodeJS"]}
+          ></Project>
+          <Project
+            projectTitle="HealthCare App"
+            projectDescription="hgfhgdf fdhjs fghgdf fgkdsgfk fhdsfh fkjdsf fdfd fdfdf fdfd fdf fdf fdf dfdf "
+            projectSkills={[
+              "PostgreSQL",
+              "Salesforce",
+              "Tableau",
+              "NodeJS",
+              "JavaScript",
+            ]}
+          ></Project>
         </Section>
         <Section Icon={Brain} sectionName="Skills">
           <SkillChildren></SkillChildren>
@@ -56,6 +72,11 @@ function App() {
         <Section Icon={UserRoundSearch} sectionName="Contact & Social Media">
           {aboutmeChild}
         </Section>
+        <Project
+          projectTitle="E Commerce App"
+          projectDescription="hgfhgdf fdhjs fghgdf fgkdsgfk fhdsfh fkjdsf "
+          projectSkills={["Java", "JavaScript", "Python", "NodeJS"]}
+        ></Project>
       </div>
     </>
   );
