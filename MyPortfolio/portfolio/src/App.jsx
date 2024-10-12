@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import SkillChildren from "./components/SkillChildren";
 import Project from "./components/Project";
+import Education from "./components/Education";
 
 import {
   UserRound,
@@ -15,6 +16,7 @@ import {
   Medal,
   UserRoundSearch,
 } from "lucide-react";
+import ProjectSkill from "./components/ProjectSkill";
 
 function App() {
   let aboutmeChild = (
@@ -61,7 +63,14 @@ function App() {
           <SkillChildren></SkillChildren>
         </Section>
         <Section Icon={GraduationCap} sectionName="Education">
-          {aboutmeChild}
+          <Education
+            title="Bachelor of Technology in Electronics & Communication"
+            description="Institute of Engineering and Technology, 2014-2018"
+          ></Education>
+          <Education
+            title="Bachelor of Technology in Electronics & Communication"
+            description="Institute of Engineering and Technology, 2014-2018"
+          ></Education>
         </Section>
         <Section Icon={Heart} sectionName="Hobbies & Interests">
           {aboutmeChild}
@@ -72,11 +81,6 @@ function App() {
         <Section Icon={UserRoundSearch} sectionName="Contact & Social Media">
           {aboutmeChild}
         </Section>
-        <Project
-          projectTitle="E Commerce App"
-          projectDescription="hgfhgdf fdhjs fghgdf fgkdsgfk fhdsfh fkjdsf "
-          projectSkills={["Java", "JavaScript", "Python", "NodeJS"]}
-        ></Project>
       </div>
     </>
   );

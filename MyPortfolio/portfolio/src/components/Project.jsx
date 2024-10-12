@@ -1,5 +1,6 @@
 import React from "react";
 import Skill from "./Skill";
+import ProjectSkill from "./ProjectSkill";
 
 const Project = (props) => {
   return (
@@ -8,7 +9,7 @@ const Project = (props) => {
       <p>{props.projectDescription}</p>
       <div className="flex flex-wrap gap-y-1 mt-2">
         {props.projectSkills.map((item) => {
-          return <Skill skill={item}></Skill>;
+          return <ProjectSkill skill={item}></ProjectSkill>;
         })}
       </div>
     </div>

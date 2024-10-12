@@ -8,7 +8,7 @@ function Section(props) {
         <Icon className="text-xl size-5"></Icon>
         <span className="font-semibold text-xl">{sectionName}</span>
       </div>
-      <div className="ml-3">{props.children}</div>
+      <div className="ml-5">{props.children}</div>
     </div>
   );
 }
