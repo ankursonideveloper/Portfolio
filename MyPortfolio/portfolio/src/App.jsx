@@ -5,6 +5,7 @@ import Section from "./components/Section";
 import SkillChildren from "./components/SkillChildren";
 import Project from "./components/Project";
 import Education from "./components/Education";
+import List from "./components/List";
 
 import {
   UserRound,
@@ -73,10 +74,14 @@ function App() {
           ></Education>
         </Section>
         <Section Icon={Heart} sectionName="Hobbies & Interests">
-          {aboutmeChild}
+          <List
+            list={["Reading Books", "Playing Cricket", "Watching Podcast"]}
+          ></List>
         </Section>
         <Section Icon={Medal} sectionName="Extracurricular Activities">
-          {aboutmeChild}
+          <List
+            list={["Reading Books", "Playing Cricket", "Watching Podcast"]}
+          ></List>
         </Section>
         <Section Icon={UserRoundSearch} sectionName="Contact & Social Media">
           {aboutmeChild}
