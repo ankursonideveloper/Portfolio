@@ -40,10 +40,6 @@ const experiences = [
     "Innovya Technologies - Data Analyst (March 2022 - April 2024)": {
       Content: [
         {
-          "Technical Support & Customer Service":
-            "Provided comprehensive technical support for insightsoftware products, troubleshooting customer issues, and ensuring a positive user experience. This involved in-depth product knowledge and effective communication skills.",
-        },
-        {
           "Software Development":
             "Transitioned to a software engineering role at Sciometrix, contributing to the development of full-stack web applications using Node.js, Express.js, React, and PostgreSQL.",
         },
